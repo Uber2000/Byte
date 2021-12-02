@@ -1,0 +1,386 @@
+.header-back {
+  position: absolute;
+  width: 271px;
+  height: 32px;
+  left: 111px;
+  top: 20px;
+}
+
+.header-lupa {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1183px;
+  top: 24px;
+}
+
+.header-kor {
+  position: absolute;
+  width: 34px;
+  height: 31px;
+  left: 1231px;
+  top: 17px;
+  z-index: 1;
+}
+
+.header .nav .nav-item1 {
+  position: absolute;
+  width: 74px;
+  height: 27px;
+  left: 712px;
+  top: 22px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #202020;
+  list-style-type: none;
+}
+
+.header .nav .nav-item2 {
+  position: absolute;
+  width: 141px;
+  height: 27px;
+  left: 818px;
+  top: 22px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #202020;
+  list-style-type: none;
+}
+
+.header .nav .nav-item3 {
+  position: absolute;
+  width: 66px;
+  height: 27px;
+  left: 991px;
+  top: 22px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #202020;
+  list-style-type: none;
+}
+
+.header .nav .nav-item4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 54px;
+  height: 27px;
+  left: 1089px;
+  top: 22px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #CC0000;
+  text-decoration: none;
+}
+
+.produkt-1 {
+  max-width: 659px;
+  max-height: 524px;
+  position: absolute;
+  left: 7%;
+  right: 0%;
+  top: 13%;
+  bottom: 0%;
+}
+
+.opis-podukt {
+  position: absolute;
+  width: 465px;
+  height: 131px;
+  left: 790px;
+  top: 90px;
+  font-family: Goudy Bookletter 1911;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #202020;
+}
+
+.pod-opis {
+  position: absolute;
+  width: 194px;
+  height: 27px;
+  left: 396px;
+  top: 116px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+}
+
+.price {
+  position: absolute;
+  height: 46px;
+  left: 396px;
+  top: 163px;
+  bottom: 364px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #CC0000;
+}
+
+.tax {
+  position: absolute;
+  width: 76px;
+  height: 17px;
+  left: 462px;
+  top: 178px;
+  bottom: 0px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #232231;
+}
+
+.add-cart {
+  width: 262px;
+  height: 48px;
+  position: absolute;
+  left: 940px;
+  right: 0%;
+  top: 410px;
+  bottom: 0%;
+  background: #CC0000;
+  border: 1px solid #950000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: inset 0px -2px 2px rgba(32, 32, 32, 0.33);
+          box-shadow: inset 0px -2px 2px rgba(32, 32, 32, 0.33);
+  border-radius: 4px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.doun-text {
+  position: absolute;
+  width: 465px;
+  height: 157px;
+  left: 790px;
+  top: 500px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.img-doun-1 {
+  position: static;
+  width: 64px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 16px;
+}
+
+.img-doun-2 {
+  position: static;
+  width: 64px;
+  height: 64px;
+  left: 80px;
+  top: 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+}
+
+.img-doun-3 {
+  position: static;
+  width: 64px;
+  height: 64px;
+  left: 160px;
+  top: 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url(03.jpg);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%), url(03.jpg);
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 16px;
+}
+
+.doun-img {
+  position: absolute;
+  top: 640px;
+  left: 80px;
+}
+
+.drop-botton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 16px 12px;
+  position: absolute;
+  width: 293px;
+  height: 48px;
+  left: 790px;
+  top: 304px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.13);
+  border-radius: 4px;
+}
+
+.drop-button-text {
+  position: static;
+  height: 16px;
+  left: 12px;
+  right: 172px;
+  top: calc(50% - 16px/2);
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.33);
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 12px;
+}
+
+.img-drop-button {
+  position: absolute;
+  left: 85%;
+  top: 45%;
+}
+
+.button-plus {
+  height: 48px;
+  width: 44px;
+  position: absolute;
+  left: 66%;
+  right: 0%;
+  top: 410px;
+  bottom: 0%;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.13);
+  border-radius: 4px 0px 0px 4px;
+}
+
+.buttom-minus {
+  height: 48px;
+  width: 44px;
+  position: absolute;
+  left: 58%;
+  right: 0%;
+  top: 410px;
+  bottom: 0%;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.13);
+  border-radius: 0px 4px 4px 0px;
+}
+
+.button-number {
+  height: 47px;
+  width: 69px;
+  position: absolute;
+  left: 61%;
+  right: 0%;
+  top: 410px;
+  bottom: 0%;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.13);
+}
+/*# sourceMappingURL=style2.css.map */

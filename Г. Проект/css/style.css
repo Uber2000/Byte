@@ -1,0 +1,247 @@
+.header-back {
+  position: absolute;
+  width: 271px;
+  height: 32px;
+  left: 111px;
+  top: 23px;
+}
+
+.header-lupa {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1183px;
+  top: 27px;
+}
+
+.header .nav .nav-item1 {
+  position: absolute;
+  width: 74px;
+  height: 27px;
+  left: 712px;
+  top: 25px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #202020;
+  list-style-type: none;
+}
+
+.header .nav .nav-item2 {
+  position: absolute;
+  width: 141px;
+  height: 27px;
+  left: 818px;
+  top: 25px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #202020;
+  list-style-type: none;
+}
+
+.header .nav .nav-item3 {
+  position: absolute;
+  width: 66px;
+  height: 27px;
+  left: 991px;
+  top: 25px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #202020;
+  list-style-type: none;
+}
+
+.header .nav .nav-item4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 54px;
+  height: 27px;
+  left: 1089px;
+  top: 25px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #CC0000;
+  text-decoration: none;
+}
+
+.backraund {
+  position: absolute;
+  width: 741px;
+  height: 520px;
+  left: 330px;
+  top: 80px;
+  background: url(img/Background.png);
+  z-index: 0;
+}
+
+.Stilus {
+  position: absolute;
+  width: 499px;
+  height: 520px;
+  left: 867px;
+  top: 80px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(20, 25, 37, 0)), color-stop(30.57%, #131824));
+  background: linear-gradient(90deg, rgba(20, 25, 37, 0) 0%, #131824 30.57%);
+  z-index: 1;
+}
+
+.Stilus2 {
+  position: absolute;
+  width: 499px;
+  height: 520px;
+  left: 0px;
+  top: 80px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(20, 25, 37, 0)), color-stop(30.57%, #131824));
+  background: linear-gradient(90deg, rgba(20, 25, 37, 0) 0%, #131824 30.57%);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+  z-index: 1;
+}
+
+.OP {
+  position: absolute;
+  width: 563px;
+  height: 88px;
+  left: 415px;
+  top: 280px;
+  font-family: Goudy Bookletter 1911;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #FFFFFF;
+  list-style-type: none;
+}
+
+.main1 {
+  position: absolute;
+  width: 121px;
+  height: 21px;
+  left: 585px;
+  top: 424px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  list-style-type: none;
+}
+
+.main2 {
+  position: absolute;
+  width: 121px;
+  height: 21px;
+  left: 623px;
+  top: 424px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: line-through;
+  color: #4e5566;
+  opacity: 0.8;
+  padding: 0 0 0 40px;
+}
+
+.button {
+  position: absolute;
+  font-family: Mulish;
+  width: 163px;
+  height: 48px;
+  left: 44%;
+  right: 0%;
+  top: 74%;
+  bottom: 0%;
+  background: #CC0000;
+  border: 1px solid #950000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: inset 0px -2px 2px rgba(32, 32, 32, 0.33);
+          box-shadow: inset 0px -2px 2px rgba(32, 32, 32, 0.33);
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.header-kor {
+  position: absolute;
+  width: 34px;
+  height: 31px;
+  left: 1231px;
+  top: 20px;
+  z-index: 1;
+}
+
+.drop_active {
+  -webkit-animation-name: panel;
+          animation-name: panel;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+header.drop {
+  position: absolute;
+  width: 360px;
+  height: 600px;
+  top: 50%;
+  left: 100%;
+  background: #FFFFFF;
+  z-index: 3;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+@-webkit-keyframes panel {
+  0% {
+    left: 100%;
+  }
+  2% {
+    left: 99%;
+  }
+  4% {
+    left: 98%;
+  }
+  6% {
+    left: 98%;
+  }
+}
+
+@keyframes panel {
+  0% {
+    left: 100%;
+  }
+  2% {
+    left: 99%;
+  }
+  4% {
+    left: 98%;
+  }
+  6% {
+    left: 98%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
